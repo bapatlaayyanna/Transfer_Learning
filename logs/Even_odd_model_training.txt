@@ -1,0 +1,33 @@
+2021-11-27	07:19:39	Even model Training started
+2021-11-27	07:19:39	Getting mnist data from get_dataset method
+2021-11-27	07:19:40	Successfully got the mnist dataset from get_dataset method
+2021-11-27	07:19:40	Setting seed values
+2021-11-27	07:19:40	seed value set successfully
+2021-11-27	07:19:40	Loading base model
+2021-11-27	07:19:41	Setting output layers weights as trinable weights
+2021-11-27	07:19:41	Assiging base model layers to our new model
+2021-11-27	07:19:41	Even/odd model summary is ######## 
+ Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ InputLayer (Flatten)        (None, 784)               0         
+                                                                 
+ HiddenLayer1 (Dense)        (None, 300)               235500    
+                                                                 
+ HiddenLayer2 (Dense)        (None, 100)               30100     
+                                                                 
+ outputlayer (Dense)         (None, 2)                 202       
+                                                                 
+=================================================================
+Total params: 265,802
+Trainable params: 265,802
+Non-trainable params: 0
+_________________________________________________________________
+
+2021-11-27	07:19:41	Model training is started
+2021-11-27	07:19:49	Model training is over
+2021-11-27	07:19:49	Saving Model in artifcats directory
+2021-11-27	07:19:49	Model is saved at artifacts\models\even_odd_model.h5
+2021-11-27	07:19:49	Even/Odd Model accuracy metrics is :[3.945268392562866, 0.6032999753952026]
+2021-11-27	07:19:49	Even model Training Ended

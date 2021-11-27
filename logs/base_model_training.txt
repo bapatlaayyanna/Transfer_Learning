@@ -1,0 +1,63 @@
+2021-11-27	06:53:54	Training started
+2021-11-27	06:53:54	Getting mnist data from get_dataset method
+2021-11-27	06:53:54	Successfully got the mnist dataset from get_dataset method
+2021-11-27	06:53:54	Setting seed values
+2021-11-27	06:53:54	seed value set successfully
+2021-11-27	06:53:54	Intialising layers for model creation
+2021-11-27	06:53:54	Layers Initialization is over
+2021-11-27	06:53:56	model summary is ######## 
+ Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ InputLayer (Flatten)        (None, 784)               0         
+                                                                 
+ HiddenLayer1 (Dense)        (None, 300)               235500    
+                                                                 
+ HiddenLayer2 (Dense)        (None, 100)               30100     
+                                                                 
+ OutputLayer (Dense)         (None, 10)                1010      
+                                                                 
+=================================================================
+Total params: 266,610
+Trainable params: 266,610
+Non-trainable params: 0
+_________________________________________________________________
+
+2021-11-27	06:53:56	Model training is started
+2021-11-27	06:54:05	Model training is over
+2021-11-27	06:54:05	Saving Model in artifcats directory
+2021-11-27	06:54:05	Model is saved at artifacts\models\base_model.h5
+2021-11-27	06:54:05	Training Ended
+2021-11-27	07:12:07	Training started
+2021-11-27	07:12:07	Getting mnist data from get_dataset method
+2021-11-27	07:12:07	Successfully got the mnist dataset from get_dataset method
+2021-11-27	07:12:07	Setting seed values
+2021-11-27	07:12:07	seed value set successfully
+2021-11-27	07:12:07	Intialising layers for model creation
+2021-11-27	07:12:07	Layers Initialization is over
+2021-11-27	07:12:09	model summary is ######## 
+ Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ InputLayer (Flatten)        (None, 784)               0         
+                                                                 
+ HiddenLayer1 (Dense)        (None, 300)               235500    
+                                                                 
+ HiddenLayer2 (Dense)        (None, 100)               30100     
+                                                                 
+ OutputLayer (Dense)         (None, 10)                1010      
+                                                                 
+=================================================================
+Total params: 266,610
+Trainable params: 266,610
+Non-trainable params: 0
+_________________________________________________________________
+
+2021-11-27	07:12:09	Model training is started
+2021-11-27	07:12:17	Model training is over
+2021-11-27	07:12:17	Saving Model in artifcats directory
+2021-11-27	07:12:17	Model is saved at artifacts\models\base_model.h5
+2021-11-27	07:12:17	Model accuracy is :[15.160036087036133, 0.09799999743700027]
+2021-11-27	07:12:17	Training Ended

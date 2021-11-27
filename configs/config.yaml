@@ -1,0 +1,12 @@
+params: 
+  SEED : 200
+  LOSS : sparse_categorical_crossentropy
+  OPTIMIZER : SGD
+  METRICS : accuracy
+  epochs : 5
+
+
+artifacts:
+
+
+logs:
